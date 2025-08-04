@@ -107,7 +107,7 @@ summary {
 
 .book-cover {
   width: 150px;
-  height: 220px;
+  height: auto;
   background-color: #dbeafe;
   display: inline-block;
   margin-right: 20px;
@@ -144,4 +144,15 @@ summary {
 
 ul {
   list-style-position: outside;
+}
+
+.cover-img {
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+  display: block;
+  border-radius: 4px;
+  background-color: #ffffff; /* fallback for transparent PNGs */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
