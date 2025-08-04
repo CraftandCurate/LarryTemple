@@ -249,7 +249,7 @@ summary {
 }
 
 details details > summary {
-  font-size: 1.05em;
-  color: #555;
+  font-size: .75em;
+  font-color: #555;
   margin-top: 20px;
 }
