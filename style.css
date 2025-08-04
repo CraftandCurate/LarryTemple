@@ -9,7 +9,7 @@
 
 /* BODY STYLE */
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Merriweather', serif;
   background-color: #f4f8fb;
   color: #1c1c1c;
   line-height: 1.6;
@@ -33,7 +33,7 @@ body {
 /* NAVIGATION */
 .navbar {
   background-color: #3b82f6; /* Bright blue */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   display: flex;
   justify-content: center;
   gap: 30px;
