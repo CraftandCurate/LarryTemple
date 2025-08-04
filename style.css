@@ -265,6 +265,6 @@ section h3 {
 
 details details > summary {
   font-size: 1.09em;
-  font-color: #555;
+  color: #555;
   margin-top: 20px;
 }
