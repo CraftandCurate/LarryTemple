@@ -129,3 +129,19 @@ summary {
   margin-top: 10px;
   display: inline-block;
 }
+
+.container ul {
+  padding-left: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.book-content ul {
+  padding-left: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-position: outside;
+}
