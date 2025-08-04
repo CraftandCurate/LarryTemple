@@ -106,23 +106,12 @@ summary {
 }
 
 .book-cover {
-  width: 150px;
-  height: auto;
-  background-color: #dbeafe;
-  display: inline-block;
-  margin-right: 20px;
-  vertical-align: top;
-  text-align: center;
-  line-height: 220px;
-  color: #1e3a8a;
-  font-weight: bold;
-  border-radius: 4px;
+  flex: 0 0 150px;
 }
 
 .book-content {
-  display: inline-block;
-  max-width: 700px;
-  vertical-align: top;
+  flex: 1;
+  min-width: 250px;
 }
 
 .amazon-link {
@@ -149,10 +138,17 @@ ul {
 .cover-img {
   width: 100%;
   height: auto;
-  max-height: 220px;
   object-fit: contain;
-  display: block;
   border-radius: 4px;
-  background-color: #ffffff; /* fallback for transparent PNGs */
+  background-color: #ffffff;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
+
+.book-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+
