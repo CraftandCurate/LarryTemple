@@ -350,10 +350,10 @@ details details > summary {
     font-size: 1em;
   }
 
-  .carousel img {
-    width: 100% !important;
-    height: auto;
-  }
+ .carousel img {
+  max-width: 100%;
+  height: auto;
+}
 
   .art-section h4 {
     font-size: 1.1em;
